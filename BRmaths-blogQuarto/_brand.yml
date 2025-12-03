@@ -1,0 +1,28 @@
+logo: 
+  medium: /img/logoSTEE-long-Blanc.png
+  small: /img/logoSTEE-court-Blanc.png
+
+typography:
+  fonts:
+    - family: Amaranth
+      source: bunny
+    - family: Arsenal # Alegreya Sans, B612
+      source: bunny
+    - family: B612 Mono
+      source: bunny
+  base: Calibri
+  headings: Amaranth
+  monospace: B612 Mono
+defaults: 
+  bootstrap:
+    defaults:
+      link-decoration: underline
+    rules: |
+      .navbar-logo {
+        max-height: 48px;
+        padding-right: .8em;
+      }
+      .navbar {
+        background-color: #726e17;
+        color: ivory
+      }

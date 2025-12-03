@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 7c355403-63e4-4fab-939e-9d2e657f7d37
+      url: https://uju.quarto.pub/brmaths

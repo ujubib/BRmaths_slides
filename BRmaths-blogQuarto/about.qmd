@@ -1,0 +1,26 @@
+---
+title: "À propos"
+image: img/lachat.jpg
+about:
+  template: jolla
+  links:
+    - icon: mastodon
+      text: Mastodon
+      href: https://mamot.fr/@UjuBib
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/julien-rabaud-6b037110/
+    - icon: github
+      text: Github
+      href: https://github.com/ujubib
+
+---
+
+Cet espace en ligne est alimenté par [Julien Rabaud](mailto:julien.rabaud@univ-pau.fr) :
+
+- Responsable de la BR mathématiques appliquées (IPRA) et des acquisitions maths-enseignement de la BU de Pau.
+- administrateur du serveur [OmekaS de l'UPPA](https://kumbuka.univ-pau.fr)
+- détaché (30%) au CSP - Numérique Recherche pour l'accompagnement à la gestion des données de la recherche 
+  - aide à la rédaction de PGD
+  - admin collection UPPA sur Recherche Data Gouv
+  - formations ED autour des données et des humanités numériques

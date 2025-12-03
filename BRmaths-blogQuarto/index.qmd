@@ -1,0 +1,17 @@
+---
+title: "Bibliothèque de recherche *Mathématiques appliquées*"
+subtitle: "Université de Pau et des pays de l'Adour (UPPA) -- Service commun de la documentation (SCD)"
+listing:
+  contents: posts
+  feed: true
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  image-height: 180px
+page-layout: full
+title-block-banner: true
+---
+
+
