@@ -2,9 +2,12 @@ project:
   type: website
 
 website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+  description: "Un lieu pour partager les infos sur la documentation en mathématiques à l'UPPA"
+  site-url: https://uju.quarto.pub/brmaths/ # you must change this appropriately for RSS feeds to work properly
   title: "Bibliothèque de recherche *Mathématiques appliquées* (IPRA)"
+  repo-url: https://github.com/ujubib/BRmaths_slides/
+  repo-subdir: BRmaths-blogQuarto
+  repo-actions: [source, issue]
   navbar:
     right:
       - about.qmd
@@ -12,6 +15,9 @@ website:
         href: https://github.com/ujubib/BRmaths_slides
       - icon: mastodon
         href: https://mamot.fr/@UjuBib
+  page-footer: 
+    center: |
+      -> Page officielle de la BR [sur le site des bibliothèques de l'UPPA](https://bibliotheques.univ-pau.fr/fr/infos-pratiques/pau/bibliotheque-de-recherche-mathematiques-appliquees-ipra.html)
 format:
   html:
     theme: 
@@ -20,6 +26,9 @@ format:
     brand: _brand.yml
     css: styles.css
     lang: fr
-
-
-
+    reference-location: document
+    toc: true
+    code-tools: false
+    code-fold: true
+    tbl-cap-location: bottom
+    fig-cap-location: bottom

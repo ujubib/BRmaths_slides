@@ -2,7 +2,10 @@
 title: "À propos"
 image: img/lachat.jpg
 about:
-  template: jolla
+  template: trestles
+  image-shape: round
+  image-alt: "photo d'un chat portant de fausses oreilles de lapin"
+  image-title: "PP Julien Rabaud"
   links:
     - icon: mastodon
       text: Mastodon
@@ -16,11 +19,25 @@ about:
 
 ---
 
-Cet espace en ligne est alimenté par [Julien Rabaud](mailto:julien.rabaud@univ-pau.fr) :
+Ce site est administré par [Julien Rabaud](mailto:julien.rabaud@univ-pau.fr)
 
-- Responsable de la BR mathématiques appliquées (IPRA) et des acquisitions maths-enseignement de la BU de Pau.
-- administrateur du serveur [OmekaS de l'UPPA](https://kumbuka.univ-pau.fr)
-- détaché (30%) au CSP - Numérique Recherche pour l'accompagnement à la gestion des données de la recherche 
-  - aide à la rédaction de PGD
-  - admin collection UPPA sur Recherche Data Gouv
-  - formations ED autour des données et des humanités numériques
+## Service commun de la documentation (SCD)
+
+::: {.panel-tabset}
+### Mathématiques
+
+- Responsable de la Bibliothèque de Recherche *Mathématiques appliquées* (IPRA) 
+- Acquisitions maths-enseignement pour la BU de Pau.
+- Dépôt sur [CIME](https://omeka-s.univ-pau.fr/s/cime/) des mémoires de master de la discipline.
+
+### Omeka S
+
+- Administrateur du serveur [OmekaS de l'UPPA](https://kumbuka.univ-pau.fr)
+:::
+
+## Pôle numérique (PN)
+
+- Détaché (30%) au *CSP - Numérique Recherche* pour l'accompagnement à la gestion des données de la recherche 
+  - Aide à la rédaction de <abbr title="Plan de Gestion de données">PGD</abbr>
+  - Administration et curation de l'espace institutionnel [Data UPPA](https://entrepot.recherche.data.gouv.fr/dataverse/univ-pau) sur [Recherche Data Gouv](https://recherche.data.gouv.fr/fr)
+  - Formations pour les <abbr title="Écoles doctorales">ED</abbr> autour des données et des humanités numériques.

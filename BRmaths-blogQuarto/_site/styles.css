@@ -2,3 +2,57 @@
 .quarto-title-banner {
     background: #b10061;
 }
+
+figcaption {
+    text-align: center;
+}
+
+#accueil>.quarto-layout-row {
+    align-items: center;
+}
+
+/* light */
+
+.quarto-light .callout-body-container {
+    background-color:seashell;
+    font-family: Amaranth, sans-serif;
+}
+
+.quarto-light h2 {
+    color: SteelBlue;
+}
+
+.quarto-light h3 {
+    color: MediumVioletRed;
+}
+
+.quarto-light h4 {
+    color: Teal;
+}
+
+.quarto-light h5 {
+    color: CornflowerBlue;
+}
+
+/* dark */
+
+.quarto-dark .callout-body-container {
+    font-family: Amaranth, sans-serif;
+    background-color:  #005266;
+}
+
+.quarto-dark h2 {
+    color: deepskyblue;
+}
+
+.quarto-dark h3 {
+    color: deeppink;
+}
+
+.quarto-dark h4 {
+    color: mediumturquoise;
+}
+
+.quarto-dark h5 {
+    color: CornflowerBlue;
+}

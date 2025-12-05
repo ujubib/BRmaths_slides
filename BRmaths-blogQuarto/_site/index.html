@@ -78,20 +78,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-posts-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-posts-listing'] = new List('listing-posts-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -365,8 +365,15 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#ouvertures-de-la-semaine" id="toc-ouvertures-de-la-semaine" class="nav-link active" data-scroll-target="#ouvertures-de-la-semaine">Ouvertures de la semaine</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ujubib/BRmaths_slides/blob/main/BRmaths-blogQuarto/index.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/BRmaths_slides/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></nav>
+    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(3)</span></div><div class="category" data-category="QmliQ05SUw==">BibCNRS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29kZQ==">code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RG9jJUMzJTg5bGVj">DocÉlec <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UXVhcnRv">Quarto <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Uk5CTQ==">RNBM <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -375,22 +382,138 @@ window.Quarto = {
 
 
 
+<div id="accueil" class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\img/logoRNBM.png" class="img-fluid figure-img"></p>
+<figcaption>La bibliothèque est membre du <a href="https://www.rnbm.org/">RNBM</a></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src=".\img/BRmaths.png" class="img-fluid" style="border-radius:16px"></p>
+</div>
+</div>
+</div>
+<section id="ouvertures-de-la-semaine" class="level2">
+<h2 class="anchored" data-anchor-id="ouvertures-de-la-semaine">Ouvertures de la semaine</h2>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://univ-pau.libcal.com/js/hours_grid.js?002"></script>
+<div id="s-lc-whw7128">
+
+</div>
+<script>
+$(function(){ 
+var week7128 = new $.LibCalWeeklyGrid( $("#s-lc-whw7128"), { iid: 4142, lid: 7128, systemTime: true }); 
+});
+</script>
+<!-- Please note: The following styles are optional, feel free to modify! //-->
+<style>
+.s-lc-whw thead { background-color: #fffed1ff; }
+.s-lc-whw-head-date { color: #ff00bfff; }
+.s-lc-whw-today-h {  background-color: #ddd; }
+.s-lc-whw-today { background-color: #F5F5F5; }
+.s-lc-whw-bh { text-align: right; white-space: nowrap; }
+.s-lc-whw-locname { font-weight: bold;}
+.s-lc-whw-sublocname{ padding-left: 10px!important; }
+.s-lc-whw-footnote { color: #555; font-size: 80%; }
+.s-lc-whw-footnote td:hover { background-color:#fff!important;}
+/* Below styles can be removed if you are already using Bootstap v3 in host page */
+.s-lc-whw-cont {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 12px;}
+.s-lc-whw-pr, .s-lc-whw-ne{ padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 3px; color: #333; background-color: #fff; border-color: #ccc; display: inline-block; margin-bottom: 0; font-weight: 400; text-align: center; vertical-align: middle; cursor: pointer; background-image: none; border: 1px solid transparent; white-space: nowrap; }
+.s-lc-whw-pr:disabled { background-color: #efefef; }
+.s-lc-whw-ne:disabled { background-color: #efefef; }
+.s-lc-whw { width: 100%; margin-bottom: 20px; max-width: 100%; background-color: transparent; border-bottom: none; border-left: none; border-collapse: collapse; border-spacing: 0; }
+.s-lc-whw>tbody>tr>td { padding: 5px; }
+.s-lc-whw>thead>tr>th { vertical-align: bottom; border-bottom: 2px solid #ddd; padding: 5px;}
+.s-lc-whw th { border-top: none; border-bottom: none; border-right: none;}
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+@media (max-width: 768px) {
+   .s-lc-whw-cont .table-responsive { width: 100%; margin-bottom: 15px; overflow-y: hidden; overflow-x: scroll; -ms-overflow-style: -ms-autohiding-scrollbar; border: 1px solid #ddd; -webkit-overflow-scrolling: touch; }
+   .s-lc-whw td { white-space: nowrap; }
+}
+</style>
+</section>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<div id="post-listing">
+
+</div>
 
 
 
+</section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-default" id="listing-posts-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-posts-listing-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-posts-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Trier par</option>
+      <option value="index" data-direction="asc">Ordre par défaut</option>
+      <option value="listing-title" data-direction="asc">
+        Titre
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Le plus ancien
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Le plus récent
+      </option>
+      <option value="listing-author" data-direction="asc">
+        Auteur·rice
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filtre">
+    </div>
+</div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="bmV3cyUyQ2NvZGUlMkNRdWFydG8=" data-listing-date-sort="1764716400000" data-listing-file-modified-sort="1764756526999" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="676">
-<div class="thumbnail"><a href="./posts/post-with-code/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1768431600000" data-listing-file-modified-sort="1764945725110" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="thumbnail"><a href="./posts/presentationLMAP_2026-01-15.html" class="no-external">
 
-<img loading="lazy" src="./img/narrative.jpg" class="thumbnail-image" style="height: 180px;">
+<img loading="lazy" src="./img/tumblr_mn0xfyhiVX1raievko1_400.webp" class="thumbnail-image" style="height: 200px;">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/post-with-code/index.html" class="no-external">Exemples Quarto</a>
+<a href="./posts/presentationLMAP_2026-01-15.html" class="no-external">La Bibliothèque de recherche Mathématiques appliquées</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./posts/presentationLMAP_2026-01-15.html" class="no-external">Présentation pour l’AG du LMAP</a>
+</div>
+<div class="delink listing-description"><a href="./posts/presentationLMAP_2026-01-15.html" class="no-external">
+
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/presentationLMAP_2026-01-15.html" class="no-external">
+<div class="listing-date">
+15 janv. 2026
+</div>
+<div class="listing-author">
+Julien Rabaud
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="bmV3cyUyQ2NvZGUlMkNRdWFydG8=" data-listing-date-sort="1764716400000" data-listing-file-modified-sort="1764756526999" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="676">
+<div class="thumbnail"><a href="./posts/post-with-code/exemples.html" class="no-external">
+
+<img loading="lazy" src="./img/narrative.jpg" class="thumbnail-image" style="height: 200px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/post-with-code/exemples.html" class="no-external">Exemples Quarto</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/post-with-code/exemples.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
@@ -400,12 +523,12 @@ window.Quarto = {
 <div class="listing-category" onclick="window.quartoListingCategory('UXVhcnRv'); return false;">Quarto</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/post-with-code/index.html" class="no-external">
+<div class="delink listing-description"><a href="./posts/post-with-code/exemples.html" class="no-external">
 https://quarto.org/docs/websites.
 </a></div>
 </div>
 <div class="metadata">
-<a href="./posts/post-with-code/index.html" class="no-external">
+<a href="./posts/post-with-code/exemples.html" class="no-external">
 <div class="listing-date">
 3 déc. 2025
 </div>
@@ -415,32 +538,39 @@ Julien Rabaud
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="bmV3cw==" data-listing-date-sort="1764457200000" data-listing-file-modified-sort="1764755388620" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<div class="thumbnail"><a href="./posts/welcome/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="2" data-categories="Uk5CTSUyQ0JpYkNOUlMlMkNEb2MlQzMlODlsZWM=" data-listing-date-sort="1724882400000" data-listing-file-modified-sort="1764853119845" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="302">
+<div class="thumbnail"><a href="./posts/proxifier.html" class="no-external">
 
-<p class="card-img-top"><img src="img\alice-matrix.jpg" style="height: 180px;"  class="thumbnail-image card-img"/></p>
+<img loading="lazy" src="./img/alice-matrix.jpg" class="thumbnail-image" style="height: 200px;">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog</a>
+<a href="./posts/proxifier.html" class="no-external">Bookmarklets pour proxyfier une ressource pendant la navigation</a>
 </h3>
+<div class="listing-subtitle">
+<a href="./posts/proxifier.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Uk5CTQ=='); return false;">RNBM</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QmliQ05SUw=='); return false;">BibCNRS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RG9jJUMzJTg5bGVj'); return false;">DocÉlec</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/welcome/index.html" class="no-external">
-This is the first post in a Quarto blog. Welcome!
+<div class="delink listing-description"><a href="./posts/proxifier.html" class="no-external">
+<p>Scripts fournis par <em>Grégory Thureau</em> lors d’un atelier du <strong>RNBM</strong>, adaptés par Julien Rabaud pour l’UPPA.</p>
 </a></div>
 </div>
 <div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
+<a href="./posts/proxifier.html" class="no-external">
 <div class="listing-date">
-30 nov. 2025
+29 août 2024
 </div>
 <div class="listing-author">
-Tristan O’Malley
+RNBM
 </div>
 </a>
 </div>
@@ -534,7 +664,7 @@ Tristan O’Malley
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/7c355403-63e4-4fab-939e-9d2e657f7d37\.netlify\.app\/");
+        var filterRegex = new RegExp("https:\/\/uju\.quarto\.pub\/brmaths");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -862,6 +992,19 @@ Tristan O’Malley
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>-&gt; Page officielle de la BR <a href="https://bibliotheques.univ-pau.fr/fr/infos-pratiques/pau/bibliotheque-de-recherche-mathematiques-appliquees-ipra.html">sur le site des bibliothèques de l’UPPA</a></p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ujubib/BRmaths_slides/blob/main/BRmaths-blogQuarto/index.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/BRmaths_slides/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

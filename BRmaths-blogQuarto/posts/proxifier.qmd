@@ -1,0 +1,84 @@
+---
+title: Bookmarklets pour proxyfier une ressource pendant la navigation
+author:
+  - RNBM
+date: 2024-08-29
+image: /img/alice-matrix.jpg
+categories: [RNBM, BibCNRS, DocÉlec]
+abstract: |
+  Scripts fournis par *Grégory Thureau*[^3] lors d’un atelier du **RNBM**[^2], 
+  adaptés par Julien Rabaud[^4] pour l’UPPA.
+  
+  [^3]: Bibliothèque de l'IRMA - Strasbourg
+
+  [^2]: **R**éseau **N**ational des **B**ibliothèques de **M**athématiques
+
+  [^4]: <julien.rabaud@univ-pau.fr>
+abstract-title: Présentation
+---
+
+::: {.callout-note}
+## Objet
+
+Ajouter deux boutons dans les marque-pages de son navigateur pour *proxyfier* la ressource que l’on est en train de visiter : un pour le **proxy de l’UPPA** et un pour le **proxy de bibCNRS** (pour les personnes rattachées à l’INSMI[^5]).
+
+[^5]: **I**nstitut **N**ational des **S**ciences **M**athématiques et de leurs **I**nteractions | <https://www.insmi.cnrs.fr/fr>
+
+ À la place de l’**url** vers une page web, comme pour un marque-page (*bookmark* ou favori) classique, on va coller du code *javascript*[^1] qui va réécrire l’url de la page en cours pour la faire passer par les serveurs proxy de l’UPPA ou de bibCNRS (INSMI seulement) pour identification et éventuel accès à la ressource (si l’UPPA ou l’INSMI sont abonnés).
+:::
+
+[^1]: S’éxécute en local dans le navigateur.
+
+## Bouton proxyUPPA
+
+### Créer un nouveau marque-page (firefox)
+
+- Clic-droit dans la `Barre personnelle` > `Ajouter un marque-page…`
+
+- **ou** `Menu` > `Marque-pages` > `Organiser les marque-pages` | fenêtre des marque-pages `Organiser` > `Ajouter un marque-page…`
+
+![Copie d'écran de la fenêtre de création de marque-page dans *Firefox*](/img/Firefox_marque-page.png)
+
+### Dans le champ **Nom**
+
+- Ce que vous voulez, par exemple `ProxyUPPA`
+
+### Dans le champ **URL**
+
+Coller le code *javascript* suivant :
+
+```js
+javascript:window.location='http://rproxy.univ-pau.fr/login?url='+location.protocol+'//'+location.hostname+location.pathname+location.search+location.hash;
+```
+
+## Bouton proxyBibCNRS (INSMI)
+
+### Créer un nouveau marque-page (firefox)
+
+- Voir *supra*.
+
+### Dans le champ **Nom**
+
+- Ce que vous voulez, par exemple `ProxyBibCNRS`
+
+### Dans le champ **URL**
+
+Coller le code *javascript* suivant :
+
+```js
+javascript:window.location='http://insmi.bib.cnrs.fr/login?url='+location.protocol+'//'+location.hostname+location.pathname+location.search+location.hash;
+```
+
+
+## Quelques URLs pour tester (le proxy UPPA)
+
+::: {.callout-tip}
+### Exemples
+
+- **CAIRN** : Christophe Masutti, *La valeur lucrative des données est une vieille histoire*, L'Économie politique, Vol. 2022/2 - n° 94, p. 22-35 | <https://shs.cairn.info/revue-l-economie-politique-2022-2-page-23?lang=fr>
+- **JSTOR** : Pierre Bourdieu, *Social Space and Symbolic Power*, Sociological Theory, Vol. 7 - n°1 (Spring 1989), p. 14-25 | <https://www.jstor.org/stable/202060>
+- **SIAM** : Gabriele Grif, Annalisa Iuorio et Frits Veerman, *Far-from-Equilibrium Traveling Pulses in Sloped Semiarid Environments Driven by Autotoxicity Effects*, SIAM Journal on Applied Mathematics, vol. 85 - n°1 (2025), p. 188-209 | <https://epubs.siam.org/doi/10.1137/24M1669499>
+:::
+
+
+***Bonne navigation !***

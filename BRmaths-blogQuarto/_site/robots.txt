@@ -1,1 +1,1 @@
-Sitemap: https://7c355403-63e4-4fab-939e-9d2e657f7d37.netlify.app/sitemap.xml
+Sitemap: https://uju.quarto.pub/brmaths/sitemap.xml

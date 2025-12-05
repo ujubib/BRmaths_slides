@@ -1,0 +1,25 @@
+---
+title: "La Bibliothèque de recherche Mathématiques appliquées"
+subtitle: Présentation pour l'AG du LMAP
+author: Julien Rabaud
+date: 2026-01-15
+date-format: "dddd D MMMM YYYY"
+lang: fr
+image: /img/tumblr_mn0xfyhiVX1raievko1_400.webp
+format:
+  revealjs:
+    navigation-mode: vertical
+    theme: sky
+---
+
+# La documentation à l'UPPA {background-image="https://64.media.tumblr.com/93cf605f613c625bbf968c17dd6d43b7/tumblr_paccnbatCR1x86knlo1_500.gifv"}
+
+## le SCD {background-image="https://64.media.tumblr.com/52b3125e8b85179893b6da60505e1d40/tumblr_mwn22yZebg1qdm5ngo1_500.gifv"}
+
+## Le PEB
+
+## La BR
+
+# Le RNBM
+
+## CFP
