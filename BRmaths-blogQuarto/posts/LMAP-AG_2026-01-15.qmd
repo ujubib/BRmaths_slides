@@ -1,0 +1,16 @@
+---
+title: Présentation de la bibliothèque à l'AG du LMAP
+date: 2026-01-15
+lang: fr
+categories: [LMAP, RNBM, Quarto]
+image: /img/ghost-world.jpg
+abstract: |
+  Lien vers la présentation HTML de la *Bibliothèque de recherche Mathématiques appliquées*
+title-block-banner: true
+---
+
+- Lien ver la [présentation](/presentationLMAP_2026-01-15.qmd).
+
+- tentative d'embarcement avec l'extension [Embedio](https://quarto.thecoatlessprofessor.com/embedio/)\ :
+
+  {{< revealjs file="https://uju.quarto.pub/brmaths/presentationLMAP_2026-01-15.html" height="500px" width="50%" class="ratio ratio-16x9" >}}

@@ -1,0 +1,28 @@
+---
+title: "La Bibliothèque de recherche Mathématiques appliquées"
+subtitle: Présentation pour l'AG du LMAP
+author: Julien Rabaud
+date: 2026-01-15
+date-format: "dddd D MMMM YYYY"
+lang: fr
+image: /img/tumblr_mn0xfyhiVX1raievko1_400.webp
+format:
+  revealjs:
+    navigation-mode: vertical
+    theme: dracula
+    transition: convex
+    slide-number: h.v
+    center: true
+---
+
+# La documentation à l'UPPA {background-image="https://64.media.tumblr.com/93cf605f613c625bbf968c17dd6d43b7/tumblr_paccnbatCR1x86knlo1_500.gifv"}
+
+## le SCD {background-image="https://64.media.tumblr.com/52b3125e8b85179893b6da60505e1d40/tumblr_mwn22yZebg1qdm5ngo1_500.gifv"}
+
+## Le PEB {background-image="https://64.media.tumblr.com/8fd9e77143e6bb2d6aedc7a671eef635/bda315ba1db7c582-b5/s500x750/a628e0db8bfec37d1b8cbc00d958686e34639475.gifv"}
+
+## La BR {background-image="https://64.media.tumblr.com/b03723988d5ab9dfaf8c753a0ce2fe6a/cb17405742c31399-08/s500x750/3192d4fddb80b85df14c9aba7d4d0ce85433bec3.gifv"}
+
+# Le RNBM {background-image="https://64.media.tumblr.com/15492dc6aa033116162e8b3ad2e96803/tumblr_paag8iMbur1x86knlo1_500.gifv"}
+
+## CFP {background-image="https://64.media.tumblr.com/538e37490e0b7d8c97dc0ae18d0ee8f2/tumblr_mmv7ffsqQR1s2xab7o1_400.gifv"}

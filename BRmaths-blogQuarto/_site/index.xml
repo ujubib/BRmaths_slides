@@ -12,13 +12,34 @@
 <generator>quarto-1.8.25</generator>
 <lastBuildDate>Wed, 14 Jan 2026 23:00:00 GMT</lastBuildDate>
 <item>
-  <title></title>
-  <dc:creator>Julien Rabaud</dc:creator>
-  <link>https://uju.quarto.pub/brmaths/posts/presentationLMAP_2026-01-15.html</link>
-  <description><![CDATA[ undefined ]]></description>
-  <guid>https://uju.quarto.pub/brmaths/posts/presentationLMAP_2026-01-15.html</guid>
+  <title>Présentation de la bibliothèque à l’AG du LMAP</title>
+  <link>https://uju.quarto.pub/brmaths/posts/LMAP-AG_2026-01-15.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<ul>
+<li><p>Lien ver la <a href="../presentationLMAP_2026-01-15.html">présentation</a>.</p></li>
+<li><p>tentative d’embarcement avec l’extension <a href="https://quarto.thecoatlessprofessor.com/embedio/">Embedio</a>&nbsp;:</p>
+    <p><a href="https://uju.quarto.pub/brmaths/presentationLMAP_2026-01-15.html" target="_blank">View slides in full screen</a></p>
+       <div class="ratio ratio-16x9">
+      <iframe class="slide-deck" src="https://uju.quarto.pub/brmaths/presentationLMAP_2026-01-15.html" height="500px" width="50%"></iframe>
+    </div>
+  </li>
+</ul>
+
+
+
+ ]]></description>
+  <category>LMAP</category>
+  <category>RNBM</category>
+  <category>Quarto</category>
+  <guid>https://uju.quarto.pub/brmaths/posts/LMAP-AG_2026-01-15.html</guid>
   <pubDate>Wed, 14 Jan 2026 23:00:00 GMT</pubDate>
-  <media:content url="https://uju.quarto.pub/brmaths/img/tumblr_mn0xfyhiVX1raievko1_400.webp" medium="image" type="image/webp"/>
+  <media:content url="https://uju.quarto.pub/brmaths/img/ghost-world.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Exemples Quarto</title>
@@ -1991,6 +2012,31 @@ font-style: inherit;">;</span></span></code></pre></div></div>
   <guid>https://uju.quarto.pub/brmaths/posts/proxifier.html</guid>
   <pubDate>Wed, 28 Aug 2024 22:00:00 GMT</pubDate>
   <media:content url="https://uju.quarto.pub/brmaths/img/alice-matrix.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Université Populaire Paloise Autogérée</title>
+  <link>https://uju.quarto.pub/brmaths/posts/pop.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="..\img/long-populaire-paloise-autogérée.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="logo UPPA"><img src="https://uju.quarto.pub/brmaths/img/long-populaire-paloise-autogérée.png" class="img-fluid figure-img" alt="logo UPPA"></a></p>
+<figcaption>logo UPPA</figcaption>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>off</category>
+  <guid>https://uju.quarto.pub/brmaths/posts/pop.html</guid>
+  <pubDate>Tue, 30 Apr 2024 22:00:00 GMT</pubDate>
+  <media:content url="https://uju.quarto.pub/brmaths/img/populaire-paloise-autogérée.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>
