@@ -9,7 +9,7 @@
 <link>https://uju.quarto.pub/brmaths/</link>
 <atom:link href="https://uju.quarto.pub/brmaths/index.xml" rel="self" type="application/rss+xml"/>
 <description>Un lieu pour partager les infos sur la documentation en mathématiques à l&#39;UPPA</description>
-<generator>quarto-1.8.26</generator>
+<generator>quarto-1.8.25</generator>
 <lastBuildDate>Wed, 14 Jan 2026 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Présentation de la bibliothèque à l’AG du LMAP</title>
@@ -1838,7 +1838,7 @@ font-style: inherit;">;</span></span>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://uju.quarto.pub/brmaths/posts/../img/Firefox_marque-page.png" class="img-fluid figure-img"></p>
+<p><img src="https://uju.quarto.pub/brmaths/img/Firefox_marque-page.png" class="img-fluid figure-img"></p>
 <figcaption>Copie d’écran de la fenêtre de création de marque-page dans <em>Firefox</em></figcaption>
 </figure>
 </div>
@@ -2012,31 +2012,6 @@ font-style: inherit;">;</span></span></code></pre></div></div>
   <guid>https://uju.quarto.pub/brmaths/posts/proxifier.html</guid>
   <pubDate>Wed, 28 Aug 2024 22:00:00 GMT</pubDate>
   <media:content url="https://uju.quarto.pub/brmaths/img/alice-matrix.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Université Populaire Paloise Autogérée</title>
-  <link>https://uju.quarto.pub/brmaths/posts/pop.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="../img/long-populaire-paloise-autogérée.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="logo UPPA"><img src="https://uju.quarto.pub/brmaths/img/long-populaire-paloise-autogérée.png" class="img-fluid figure-img" alt="logo UPPA"></a></p>
-<figcaption>logo UPPA</figcaption>
-</figure>
-</div>
-
-
-
- ]]></description>
-  <category>off</category>
-  <guid>https://uju.quarto.pub/brmaths/posts/pop.html</guid>
-  <pubDate>Tue, 30 Apr 2024 22:00:00 GMT</pubDate>
-  <media:content url="https://uju.quarto.pub/brmaths/img/populaire-paloise-autogérée.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 </channel>
 </rss>

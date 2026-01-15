@@ -1,0 +1,34 @@
+/* === Styles pour l'impression via Ctrl+P après 'e' === */
+
+/* Cibler la vue print spécifique Reveal.js */
+.reveal.print-view,
+.reveal.print-view .slides,
+.reveal.print-view section {
+  background: white !important; /* fond blanc */
+  color: black !important;      /* texte noir */
+}
+
+/* Titres et texte */
+.reveal.print-view h1,
+.reveal.print-view h2,
+.reveal.print-view h3,
+.reveal.print-view p,
+.reveal.print-view li {
+  color: black !important;
+}
+
+/* Logos inline */
+.reveal.print-view .logo-inline {
+  background-color: rgba(255,255,255,1) !important; /* fond blanc plein */
+  height: 1em; /* taille max de la ligne */
+  vertical-align: baseline;
+  padding: 0 0.2em;
+  border-radius: 0.2em;
+}
+
+/* Supprimer décorations inutiles */
+.reveal.print-view .slides > section {
+  box-shadow: none !important;
+  transform: none !important;
+  opacity: 1 !important;
+}

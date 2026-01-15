@@ -1,28 +1,174 @@
 ---
-title: "La Bibliothèque de recherche Mathématiques appliquées"
-subtitle: Présentation pour l'AG du LMAP
-author: Julien Rabaud
+title: "[La Bibliothèque de Recherche Mathématiques appliquées de l'UPPA et Le RNBN ![](/img/logoRNBM.png){style='height:1.1em;vertical-align:middle;background-color:white;padding:12px;border-radius:6px'}]{style='font-size:4rem'}"
+subtitle: Présentation à l'assemblée générale du LMAP
+author: 
+  - name: Julien Rabaud 
+    orcid: 0000-0002-6604-9777
+    affiliation: Service Commun de la Documentation + CSP Numérique Recherche
 date: 2026-01-15
 date-format: "dddd D MMMM YYYY"
+title-slide-attributes: 
+  data-background-image: /img/title-backgroud.png
+  data-background-opacity: 50%
 lang: fr
 image: /img/tumblr_mn0xfyhiVX1raievko1_400.webp
 format:
   revealjs:
-    navigation-mode: vertical
-    theme: dracula
-    transition: convex
-    slide-number: h.v
+    logo: /img/logoSTEE-court-Noir.png
+    theme: default
+    css: styles.css
+    navigation-mode: linear
+    transition: none
+    background-transition: fade
+    slide-number: c/t
     center: true
+    footer: "AG du LMAP -- 2026-01-15"
 ---
 
-# La documentation à l'UPPA {background-image="https://64.media.tumblr.com/93cf605f613c625bbf968c17dd6d43b7/tumblr_paccnbatCR1x86knlo1_500.gifv"}
+## Présentation rapide de la BR 
 
-## le SCD {background-image="https://64.media.tumblr.com/52b3125e8b85179893b6da60505e1d40/tumblr_mwn22yZebg1qdm5ngo1_500.gifv"}
+::: {.fragment}
+- Bibliothèque dite "intégrée" (rattachée au SCD)
+  - [Convention avec le LMAP qui finance la quasi-totalité des dépenses documentaires.]{style='font-size:0.8em'}
+  - [Achats proposés par les membres du Labo et validés par sa direction.]{style='font-size:0.8em'}
+:::
 
-## Le PEB {background-image="https://64.media.tumblr.com/8fd9e77143e6bb2d6aedc7a671eef635/bda315ba1db7c582-b5/s500x750/a628e0db8bfec37d1b8cbc00d958686e34639475.gifv"}
+::::: {.columns}
 
-## La BR {background-image="https://64.media.tumblr.com/b03723988d5ab9dfaf8c753a0ce2fe6a/cb17405742c31399-08/s500x750/3192d4fddb80b85df14c9aba7d4d0ce85433bec3.gifv"}
+:::: {.column}
 
-# Le RNBM {background-image="https://64.media.tumblr.com/15492dc6aa033116162e8b3ad2e96803/tumblr_paag8iMbur1x86knlo1_500.gifv"}
+::: {.fragment}
+- Ouverture 20h par semaine 
+  - [8h30 - 12h30 du lundi au vendredi]{style='font-size:0.8em'}
+:::
 
-## CFP {background-image="https://64.media.tumblr.com/538e37490e0b7d8c97dc0ae18d0ee8f2/tumblr_mmv7ffsqQR1s2xab7o1_400.gifv"}
+::::
+
+:::: {.column}
+
+::: {.fragment}
+- ~ 3500 Livres
+- Revues papier et numérique 
+- Un fonds *Master*
+:::
+
+::::
+
+:::::
+
+# Le RNBM
+
+![](/img/logoRNBM.png){.r-stretch}
+
+## Présentation du réseau thématique
+
+:::: {.columns}
+
+::: {.column}
+- Créé en 1983 (Club sous l'égide de la SMF)
+- 1996 : Structure officielle CNRS, conventions avec SMF et SMAI.
+- 2004 : GDS 2755
+- 2021 : RT 2755
+:::
+
+::: {.column}
+> *Le RNBM \[...\] est un réseau thématique rattaché à l’INSMI-CNRS. Il apporte un soutien à la recherche en coordonnant la politique documentaire en mathématiques dans le cadre des missions nationales de l’INSMI*.
+>
+> ::::: {style='text-align:right;font-size:0.8em'}
+> [Site web du RNBM](https://www.rnbm.org/category/le-reseau/presentation-du-reseau/)
+> :::::
+:::
+
+::::
+
+::: {.notes}
+Il assure la double mission de garantir l’accès, la qualité, la pérennité et la spécificité de la documentation mathématique, et de renforcer les relations entre les bibliothèques du réseau ainsi qu’entre les bibliothécaires-documentalistes et les mathématiciens.
+ 
+Il est organisé autour d’une direction en binôme formée d’un(e) bibliothécaire et d’un(e) mathématicien(ne) qui s’appuie sur un Comité stratégique (en remplacement du précédent Bureau), et un ensemble de groupes de travail sur des thématiques diverses.
+:::
+
+
+## Une Charte {background-iframe="https://www.rnbm.org/charte-du-rnbm/" background-interactive="true"}
+
+## Des Groupes de Travails
+
+:::: {.columns}
+
+::: {.column}
+- Archives
+- Communication
+- Données-Codes Maths
+- Formation
+- Informations des mathématiciennes et mathématiciens
+:::
+
+::: {.column}
+- Licences et ressources numériques
+- Négociations
+- Prospectives
+- Signalement
+:::
+
+::::
+
+::: {.notes}
+- Je fais partie du GT Données-Codes Maths
+- GT Formation : webinaire *Publication et accès ouvert en mathématiques* à destination des doctorant·es et jeunes chercheur·ses : 2 sessions en 2025 : avril et novembre
+- GT Communication : les webinaires du tour de France des bibliothèques du RNBM - Prochaine séance (la 8e) vendredi 23 janvier de 11h à midi - Vous avez reçu l'info et le lien Zoom-CNRS par Sophie.
+:::
+
+## Des Services
+
+:::: {.columns}
+
+::: {.column} 
+[![](/img/logo-cfp.jpg){height=200px}](https://cfp.mathdoc.fr/)
+
+[![](/img/logo-licence_rnbm_V4_1.png)](https://licence.rnbm.org)
+:::
+
+::: {.column}
+[![](/img/logo-portail-math.jpg){height=200px}](https://portail.math.cnrs.fr)
+
+[![](/img/logo_pcmath.png)](https://www.rnbm.org/gt-pcmath/)
+
+- Liste de diffusion \[bibli\] entre correspondants RNBM
+:::
+
+::::
+
+::: {.notes}
+- Portail Maths : réalisé par Mathrice avec Mathdoc
+- CFP : réalisé par Mathdoc
+- PCMath : 1er PCP (avant ceux de l'ABES) On vient d'adhérer -- Cristal collectif 2024
+::: 
+
+## Mathdoc (UAR 5638, INSMI -- UGA)
+
+:::: {.columns}
+
+::: {.column} 
+[![](/img/logo-numdam.jpg){height=200px}](http://www.numdam.org/)
+
+[![](/img/logo-centre-mersenne.jpg){height=200px}](https://www.centre-mersenne.org/)
+:::
+
+::: {.column} 
+[![](/img/geodesic2.png){height=200px}](https://geodesic.mathdoc.fr/)
+:::
+
+::::
+
+::: {.notes}
+NUMDAM = NUMérisation de Documents Anciens Mathématiques
+:::
+
+## Autres ressources autour de la documentation
+
+- Extension pour navigateur web [Click & Read](https://clickandread.inist.fr) (INIST-CNRS)
+- [Tuto pour "proxifier" une ressource](/posts/proxifier.qmd) que l'on est en train de consulter sur le web (UPPA et Biblio-CNRS INSMI)
+- Les formulaires du SCD pour vos [demandes de PEB](https://bibliotheques.univ-pau.fr/fr/services/pret-entre-bibliotheques.html) (livres ou articles)
+
+## Merci de votre attention
+
+<mailto:julien.rabaud@univ-pau.fr>

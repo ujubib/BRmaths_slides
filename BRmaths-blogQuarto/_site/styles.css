@@ -56,3 +56,20 @@ figcaption {
 .quarto-dark h5 {
     color: CornflowerBlue;
 }
+
+/* Reveal */
+
+.reveal blockquote {
+    background-color: cornsilk !important;
+    color: darkslateblue !important;
+    display: block;
+    position: relative;
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.05) ;
+    border: 5px solid Peru !important; 
+   border-radius: 12px;
+}
+
+
+
+
