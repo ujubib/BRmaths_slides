@@ -14,6 +14,7 @@ lang: fr
 image: /img/tumblr_mn0xfyhiVX1raievko1_400.webp
 format:
   revealjs:
+    show-notes: separate-page
     logo: /img/logoSTEE-court-Noir.png
     theme: default
     css: styles.css
@@ -131,16 +132,18 @@ Il est organisé autour d’une direction en binôme formée d’un(e) biblioth�
 [![](/img/logo-portail-math.jpg){height=200px}](https://portail.math.cnrs.fr)
 
 [![](/img/logo_pcmath.png)](https://www.rnbm.org/gt-pcmath/)
-
-- Liste de diffusion \[bibli\] entre correspondants RNBM
 :::
 
-::::
+:::: 
+
+::: {style="text-align:center"}
+- *Liste de diffusion* **\[bibli\]** *entre correspondants RNBM.*
+:::
 
 ::: {.notes}
 - Portail Maths : réalisé par Mathrice avec Mathdoc
 - CFP : réalisé par Mathdoc
-- PCMath : 1er PCP (avant ceux de l'ABES) On vient d'adhérer -- Cristal collectif 2024
+- PCMath : 1er PCP (avant ceux de l'ABES). Cristal collectif du CNRS 2024. On vient d'adhérer :)
 ::: 
 
 ## Mathdoc (UAR 5638, INSMI -- UGA)
@@ -163,12 +166,14 @@ Il est organisé autour d’une direction en binôme formée d’un(e) biblioth�
 NUMDAM = NUMérisation de Documents Anciens Mathématiques
 :::
 
-## Autres ressources autour de la documentation
+## Autres ressources pour la documentation
 
 - Extension pour navigateur web [Click & Read](https://clickandread.inist.fr) (INIST-CNRS)
 - [Tuto pour "proxifier" une ressource](/posts/proxifier.qmd) que l'on est en train de consulter sur le web (UPPA et Biblio-CNRS INSMI)
 - Les formulaires du SCD pour vos [demandes de PEB](https://bibliotheques.univ-pau.fr/fr/services/pret-entre-bibliotheques.html) (livres ou articles)
 
-## Merci de votre attention
+## Merci de votre attention {.center background-image="/img/title-backgroud.png" background-opacity=0.5}
 
+::: {style="width:fit-content;margin-top:2em;background-color:ivory;border-radius:12px;padding:0.5em"}
 <mailto:julien.rabaud@univ-pau.fr>
+:::

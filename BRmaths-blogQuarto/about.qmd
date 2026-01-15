@@ -32,7 +32,7 @@ Ce site est administré par [Julien Rabaud](mailto:julien.rabaud@univ-pau.fr)
 
 ### Omeka S
 
-- Administrateur du serveur [OmekaS de l'UPPA](https://kumbuka.univ-pau.fr)
+- Administrateur de l'instance [OmekaS de l'UPPA](https://kumbuka.univ-pau.fr)
 :::
 
 ## Pôle numérique (PN)

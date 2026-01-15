@@ -77,7 +77,7 @@ javascript:window.location='http://insmi.bib.cnrs.fr/login?url='+location.protoc
 
 - **CAIRN** : Christophe Masutti, *La valeur lucrative des données est une vieille histoire*, L'Économie politique, Vol. 2022/2 - n° 94, p. 22-35 | <https://shs.cairn.info/revue-l-economie-politique-2022-2-page-23?lang=fr>
 - **JSTOR** : Pierre Bourdieu, *Social Space and Symbolic Power*, Sociological Theory, Vol. 7 - n°1 (Spring 1989), p. 14-25 | <https://www.jstor.org/stable/202060>
-- **SIAM** : Gabriele Grif, Annalisa Iuorio et Frits Veerman, *Far-from-Equilibrium Traveling Pulses in Sloped Semiarid Environments Driven by Autotoxicity Effects*, SIAM Journal on Applied Mathematics, vol. 85 - n°1 (2025), p. 188-209 | <https://epubs.siam.org/doi/10.1137/24M1669499>
+- **Taylor & Francis** : Emanuela Gussetti et Martina Hofmanová, *Statistical solutions to the Schrödinger map equation in 1D, via the randomly forced Landau-Lifschitz-Gilbert equation*,Communications in Partial Differential Equations, Volume 50 - n°10-12, 2025, p. 1291-1326 | <https://www.tandfonline.com/doi/full/10.1080/03605302.2025.2584807>
 :::
 
 
